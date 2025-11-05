@@ -8,7 +8,7 @@ export const DEFAULT_SYSTEM_PROMPT =
   'Sé breve, directo y amigable.';
 
 const DEFAULT_AVATAR_ID = import.meta.env.VITE_AVATAR_ID || 'default';
-const DEFAULT_VOICE_ID = 'alloy'; // OpenAI Realtime API voice (neutral, funciona en español)
+const DEFAULT_VOICE_ID = '763f160b801a4c04bbb022a1a1f7dad8'; // HeyGen voice ID (voz en español)
 
 interface Settings {
   aspectRatio: AspectRatio;
